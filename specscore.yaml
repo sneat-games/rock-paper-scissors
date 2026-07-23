@@ -1,0 +1,7 @@
+# SpecScore Repo Config Schema: https://specscore.md/repo-config
+
+project:
+    title: Rock-Paper-Scissors
+    host: github.com
+    org: prizarena
+    repo: rock-paper-scissors

@@ -12,3 +12,4 @@
 *.out
 
 server-go/rpssecrets/secrets.go
+specscore.local.yaml
