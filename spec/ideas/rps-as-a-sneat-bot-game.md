@@ -20,7 +20,7 @@ How might we add a fast, zero-persistence Rock-Paper-Scissors game to Sneat's /g
 
 SneatBot's `/games` shipped with **Reversi** first, built as a framework-light
 play layer in its own repo. The next game should be quick and casual. This RPS
-repo already exists (`prizarena/rock-paper-scissors`) but as a dead standalone GAE
+repo already exists (`sneat-games/rock-paper-scissors`) but as a dead standalone GAE
 app on `strongo/bots-framework` with no real game logic — so RPS is a fresh build,
 mirroring the Reversi pattern (game-per-repo, state in callback data). Prior art:
 the [Reversi feature](../features/../../../reversi/spec/features/telegram-reversi-bot/README.md)
