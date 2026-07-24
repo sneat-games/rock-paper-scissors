@@ -5,7 +5,7 @@ status: Draft
 
 # Feature: Telegram Rock-Paper-Scissors bot (vs AI/Random, running score)
 
-> [SpecScore.**Studio**](https://specscore.studio): | [Explore](https://specscore.studio/app/github.com/prizarena/rock-paper-scissors/spec/features/telegram-rps-bot?op=explore) | [Edit](https://specscore.studio/app/github.com/prizarena/rock-paper-scissors/spec/features/telegram-rps-bot?op=edit) | [Ask question](https://specscore.studio/app/github.com/prizarena/rock-paper-scissors/spec/features/telegram-rps-bot?op=ask) | [Request change](https://specscore.studio/app/github.com/prizarena/rock-paper-scissors/spec/features/telegram-rps-bot?op=request-change) |
+> [SpecScore.**Studio**](https://specscore.studio): | [Explore](https://specscore.studio/app/github.com/sneat-games/rock-paper-scissors/spec/features/telegram-rps-bot?op=explore) | [Edit](https://specscore.studio/app/github.com/sneat-games/rock-paper-scissors/spec/features/telegram-rps-bot?op=edit) | [Ask question](https://specscore.studio/app/github.com/sneat-games/rock-paper-scissors/spec/features/telegram-rps-bot?op=ask) | [Request change](https://specscore.studio/app/github.com/sneat-games/rock-paper-scissors/spec/features/telegram-rps-bot?op=request-change) |
 **Status:** Draft
 **Source Ideas:** rps-as-a-sneat-bot-game
 
@@ -16,7 +16,7 @@ AI** or **Random** — inside a Telegram chat, keeping a **running win–draw–
 score**. The whole game state (opponent mode, score, and the human's per-move
 counts for the AI) travels in the button **callback data**, so there is no
 server-side storage. This is the second game in SneatBot's `/games` (after
-[Reversi](https://github.com/prizarena/reversi/blob/main/spec/features/telegram-reversi-bot/README.md)),
+[Reversi](https://github.com/sneat-games/reversi/blob/main/spec/features/telegram-reversi-bot/README.md)),
 built to the same pattern: a framework-light play layer (`rpsplay`) driven by any
 Sneat bot.
 

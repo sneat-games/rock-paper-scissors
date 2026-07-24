@@ -1,4 +1,4 @@
-module github.com/prizarena/rock-paper-scissors
+module github.com/sneat-games/rock-paper-scissors
 
 go 1.25
 
